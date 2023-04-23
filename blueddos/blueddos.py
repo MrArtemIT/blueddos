@@ -65,7 +65,7 @@ if __name__ == '__main__':
         main()
     except KeyboardInterrupt:
         time.sleep(0.1)
-        print('\n[B̪̟̟l̻̫̦u͉̼͙e͉̼̝h̞̪͎a͕̞̪c͚͚͜k̠̪] Отменён')
+        print('\n[b̻͚̟l̡̺u͓͔e͖͖̙d̙̠͍d̠͉̘o͍̪̙s͇͎̫] Отмена')
         exit(0)
     except Exception as e:
         time.sleep(0.1)
